@@ -107,6 +107,7 @@ return (
                         <p className="address">
                                 Momodou Krubally<br/>
                                 Vantaa Finland<br/>
+                                momo.krubs(at)tutanota.com<br/>
                                 <span>(358) 466 858 166</span>
                             </p>
                         </div>
