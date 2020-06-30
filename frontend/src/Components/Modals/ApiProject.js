@@ -81,7 +81,7 @@ const ApiProject = (props) => {
                             </div>
                             <div id="topics" className="tab-pane text-justify" >
                                 <h2 className="mb-3 mt-3 text-center">Topics Covered</h2>
-                                <p className='display-2' style={{ color: '#34abeb' }}>{info.topics}</p>
+                                <p className='display-4' style={{ color: '#34abeb' }}>{info.topics}</p>
                             </div>
                         </div>
                         <span className="categories"><i className="fa fa-tag"></i>The power of coffee</span>

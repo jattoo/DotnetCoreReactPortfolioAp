@@ -27,7 +27,6 @@ const PhoneBookModal = (props) => {
 
     const phoneInfo = props.data === undefined ? data : props.data
 
-    console.log('phonebookmodal: ', props.data)
 
 return (
 <div className="columns portfolio-item" >
@@ -66,7 +65,10 @@ return (
          <div className="container tab-content">
                         <div id='introduction' className="  tab-pane active text-justify" >
                              <h2 className="mb-3 mt-3 text-center">About the project</h2>
-                                        <p>{phoneInfo.details}</p>
+                             <div>
+                               <h3>Check It Out: <a href="http://phonebooknapplication.herokuapp.com/#/">PhoneBook App Live</a></h3>
+                            </div>
+                              <p>{phoneInfo.details}</p>
                         </div>
                         <div id="learned" className="tab-pane text-justify"  >
                             <h2 className="mb-3 mt-3 text-center">What I learned</h2>
@@ -74,7 +76,7 @@ return (
                         </div>
                         <div id="topics" className="tab-pane text-justify"  >
                             <h2 className="mb-3 mt-3 text-center">What I learned</h2>
-                            <p className='display-2' style={{ color: 'green' }}>{phoneInfo.topics}</p>
+                            <p className='display-4' style={{ color: 'green' }}>{phoneInfo.topics}</p>
                         </div>
             </div>
             <span className="categories"><i className="fa fa-tag"></i>The power of coffee</span>

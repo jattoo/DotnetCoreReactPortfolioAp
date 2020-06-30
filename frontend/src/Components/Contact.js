@@ -38,7 +38,6 @@ const Contact = () => {
         const user_id = process.env.REACT_APP_USER_ID
         const template_id = process.env.REACT_APP_TEMPLATE_ID
         const service_id = process.env.REACT_APP_SERVICE_ID
-        //console.log(message_html, userId, templateID, serviceId)
        
         //CONFIGURE AND SEND WITH EMAILJS
         Emailjs.send(service_id, template_id, message_html, user_id)
@@ -67,10 +66,10 @@ return (
                 </div>
                 <div className="ten columns">
                     <p className="lead">
-                        Please don not hesitate..Incase i did not reply immidiately,
-                        then it means i am not home may gone to the gym or outside. 
-                        Please dont worry i will reply as soon as it it possible. 
-                        Thank you for you time...You are the best!</p>
+                        ...In case i did not reply immidiately,
+                        then it means i am not home. I may have been gone to the gym or outside. 
+                        Please dont worry i will reply as soon as possible.Thank you for your time...Thank you
+                    </p>
                 </div>
             </div>
             <div className="row">

@@ -18,7 +18,7 @@ return (
                <div className="twelve columns">
 
                   <h3>Laurea University Of Applied Sciences</h3>
-                  <p className="info">Barchelors in Information Technology <span>&bull;</span> <em className="date">January 2017 - Present</em></p>
+                  <p className="info">Barchelors in Information Technology <span>&bull;</span> <em className="date">January 2018 - Present</em></p>
 
                   <p>Information Technology studies where I've mostly specialized in software development studies in different fields</p>
                </div>
